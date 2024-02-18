@@ -1,24 +1,37 @@
-# Sorting_Visualizer
+Sorting Visualizer
 
-A web application showcasing the inner workings of sorting algorithms.
+A web-based sorting visualizer that allows users to interactively explore and understand various sorting algorithms. The visualizer provides a dynamic representation of sorting algorithms on arrays of different sizes and speeds, offering insights into their time and space complexities.
 
-Implemented algorithms:
-1) Bubble sort
-2) Selection sort
-3) Insertion sort
-4) Merge sort
-5) Quick sort
-6) Heap sort
+ Features
 
-Features:
-1) Colored representation of step being executed.
-  1.1) Blue:default
-  1.2) Yellow: Being compared
-  1.3) Red: Identified as in incorrect position and to be moved
-  1.4) Green: In correct position
-2) 3 Controls for visualizations
-  2.1) Speed of visualization (5 speed levels)
-  2.2) Data size ()
-  2.3) Generation of new data (Randomly generate new data).
-4) Time and Space complexity of algorithm being visualized.
+- Algorithm Visualization:
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort
+  - Heap Sort
+
+- Interactive Controls
+  - Adjust array size
+  - Control the speed of the algorithm
+  - Generate a new random array
+
+- Complexity Information:
+  - Display time complexity (worst, average, best case)
+  - Display space complexity (worst case)
+
+How to Use
+
+1. Clone the repository to your local machine.
+2. Open `index.html` in a web browser.
+3. Explore different sorting algorithms and adjust settings using the interactive controls.
+
+Project Structure
+
+- css/:Contains stylesheets for the visualizer.
+- scripts/:Includes JavaScript files for sorting algorithms, main logic, and visualizations.
+- index.html: The main HTML file containing the structure of the visualizer.
+
+
 
